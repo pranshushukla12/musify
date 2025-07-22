@@ -21,8 +21,7 @@ let song = [
     {songname:"Bol Na  Halke", filePath:"song/Bol Na Halke Halke - (Raag.Fm).mp3", coverPath:"cover/bol na halke.jpg"},
     {songname:"Bulleya", filePath:"song/Bulleya - (Raag.Fm).mp3", coverPath:"cover/bulleya.jpg"},
     {songname:"O Aasmaan Wale", filePath:"song/O Aasman Wale (PenduJatt.Com.Se).mp3", coverPath:"cover/o-aasman-wale-jubin-nautiyal.webp"},
-    {songname:"Sadiya", filePath:"song/128-Sadiya - Pawan Singh 128 Kbps.mp3", coverPath:"cover/sadiya.jpg"},
-    {songname:"Balamuwa ke Ballam", filePath:"song/128-Balamuwa Ke Ballam - Samar Singh 128 Kbps.mp3", coverPath:"cover/Balamuwa Ke Ballam.jpg"},
+   
 
 ]
 songitem.forEach((element, i)=>{
@@ -58,7 +57,7 @@ const makeAllPlays = ()=>{
    })
 }
 document.getElementById('next').addEventListener('click', ()=>{
-    if(songIndex>=9){
+    if(songIndex>=7){
         songIndex = 0
     }
     else{
